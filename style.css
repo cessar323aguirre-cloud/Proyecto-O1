@@ -1,6 +1,6 @@
 body {
-    background: rgba(65, 140, 252, 0.404);
-
+    background: rgba(21, 45, 82, 0.918);
+    margin: 0;
 }
 
 
@@ -9,24 +9,26 @@ div {
 }
 
 .container {
-    display: flex;
     width: 300px;
     height: 200px;
-    margin-left: auto;
+    justify-content: flex-end;
 }
-
 
 .portada {
     justify-content: flex-end;
+    align-items: flex-start;
     display: flex;
     min-height: 400px;
     padding: 32px;
     color: white;
 
     background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent),
-    url("imagenes/fondo.jpeg") center / cover no-repeat;
+    linear-gradient(to bottom, rgba(72, 148, 235, 0.568), transparent),
+    url("imagenes/fondo.jpg") center / cover no-repeat;
 }
 
-
+.container img {
+    display: block;
+    margin-right: 0px;
+}
 
