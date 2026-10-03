@@ -113,3 +113,10 @@ div button:hover {
 
     border: black 1px solid;
 }
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 40px;
+}
